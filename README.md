@@ -8,7 +8,7 @@ A Nix flake providing TerminusDB packages and NixOS/home-manager modules.
 
 ```nix
 {
-  inputs.terminusdb.url = "github:aleph-garden/terminusdb-flake";
+  inputs.terminusdb.url = "github:tophcodes/terminusdb-flake";
 
   # In your configuration:
   services.terminusdb = {
@@ -35,7 +35,7 @@ A Nix flake providing TerminusDB packages and NixOS/home-manager modules.
 ### Direct Usage
 
 ```bash
-nix run github:aleph-garden/terminusdb-flake
+nix run github:tophcodes/terminusdb-flake
 ```
 
 ## Dashboard (Optional)
